@@ -1,0 +1,101 @@
+:root {
+    --main-red: #a20a0d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    color: white
+}
+
+li:hover {
+    color: var(--main-red);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.1rem;
+    transition-duration: 0.5s;
+}
+
+.join-now {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: dimgrey solid 1px;
+    border-radius: 0.3rem;
+    padding: 0.5rem ;
+}
+
+.join-now:hover {
+    background-color: dimgrey;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.join-now-plus-sign {
+    display: flex;
+    background-color: var(--main-red);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.15rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+.join-now-text {
+    padding: 0 0 0 0.5rem;
+    font-weight: 400;
+}
+
+.main-banner-img {
+    width: 100%;
+}
+
+.banner-left-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 1rem;
+    width: 20rem;
+    color: white;
+}
+
+.brush-stroke-1 {
+width: 30rem;
+    position: relative;
+}
+
+.title-text-stroke-1 {
+    font-size: 2rem;
+    color: black;
+    position: absolute;
+}
+
+
