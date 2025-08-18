@@ -233,8 +233,8 @@
             <p class="smaller-text">Easily determine your body mass index with our accurate calculation tool.</p>
             <div class="ibm-inputs">
                 <form>
-                    <input type="number" placeholder="Weight / Kg" min="0" required>
-                    <input type="number" placeholder="Height / Cm" min="0" required>
+                    <input type="number" placeholder="Weight / Kg" min="0" required id="ibm-input-weight">
+                    <input type="number" placeholder="Height / Cm" min="0" required id="ibm-input-height">
                 </form>
             </div>
             <div class="ibm-outputs">
@@ -242,7 +242,7 @@
                 <p class="output" id="bmi-result"></p>
             </div>
         </div>
-        <button class="button-classes">CALCULATE</button>
+        <button class="button-classes" id="ibm-button">CALCULATE</button>
     </div>
 
     <div class="bmi-right-container">
@@ -254,6 +254,9 @@
 
 
 <footer></footer>
+
+<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="application/javascript" src="scripts/script.js"></script>
 
 </body>
 </html>
