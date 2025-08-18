@@ -19,6 +19,7 @@ header {
     height: 5rem;
     position: relative;
     z-index: 9999;
+    background: black
 }
 
 ul {
@@ -311,4 +312,91 @@ h1:first-of-type {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.why-us-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background: black;
+}
+
+.why-us-left {
+    width: 25rem;
+    margin-right: 5rem;
+}
+
+.why-us-right {
+    width: 25rem;
+    margin-left: 5rem;
+    position: relative;
+    z-index: 2;
+}
+
+
+.title-text-stroke-4 {
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+    color: white;
+    position: absolute;
+    z-index: 9;
+    align-self: center;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.why-us-secondary-title {
+    font-size: 1.7rem;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.why-us-text {
+    line-height: 1.6rem;
+    color: white;
+}
+
+.boxer-man-img {
+    height: 99vh;
+    mask-image: linear-gradient(to right, transparent, black 30%);
+}
+
+.why-us-mosaic-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.why-us-mosaic-container > div {
+    display: flex;
+}
+.mosaic-icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 1;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.mosaic-icon {
+    height: 3rem;
+}
+
+.mosaic-icon-text {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
