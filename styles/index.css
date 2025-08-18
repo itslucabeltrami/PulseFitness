@@ -400,3 +400,71 @@ h1:first-of-type {
     font-size: 1rem;
     font-weight: bold;
 }
+
+.gym-trainers-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.title-container {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brush-stroke-4 {
+    width: 10rem;
+    position: relative;
+    justify-content: center;
+}
+
+
+.trainer-mosaic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.trainer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.trainer-img {
+    height: 18rem;
+}
+
+.trainer-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+
+}
+
+.trainer-social-icon {
+    height: 1rem;
+    margin: 0.5rem;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.trainer-social-icon:hover {
+    opacity: 1;
+    scale: 110%;
+    transition: 0.3s;
+}
+
+
