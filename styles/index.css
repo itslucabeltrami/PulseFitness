@@ -520,3 +520,91 @@ input {
     color: var(--main-red);
     margin-left: 0.7rem;
 }
+
+.prices-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.prices-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50rem;
+    position: relative;
+    margin-top: 2rem;
+
+}
+
+.prices-card {
+    background-color: white;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.prices-card:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.prices-card-img-container {
+    width: 15rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.prices-card-img {
+    height: 10rem;
+    object-fit: cover;
+
+}
+
+.prices-perks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: white;
+    width: 15rem;
+    box-shadow: 0 0 22px 5px rgba(0, 0, 0, 0.13);
+    padding-top: 1rem;
+}
+
+.prices-price {
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+.prices-price-currency {
+    font-weight: 200;
+    font-size: 0.7rem;
+    color: grey;
+    font-style: italic;
+}
+
+.prices-card-title {
+    font-weight: bold;
+}
+
+.prices-perks {
+    font-size: 0.9rem;
+
+}
+
+.button-red {
+    color: white;
+    background: var(--main-red);
+}
