@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pulse Fitness</title>
-    <link rel="icon" type="image/x-icon" href="assets/logos/favicon.png">
+    <title>Our Classes</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logos/favicon.png">
     <link rel="stylesheet" href="../styles/classes.css"/>
     <link rel="stylesheet" href="../styles/index.css"/>
 </head>
@@ -15,7 +15,9 @@
     </div>
     <div>
         <ul>
-            <a href="../index.html"><li>Home</li></a>
+            <a href="../index.html" class="header-a">
+                <li>Home</li>
+            </a>
             <li>About</li>
             <li>Gallery</li>
             <li>Schedule</li>
@@ -32,65 +34,95 @@
 
 <div class="classes-container">
     <div class="classes-images-container">
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/cycling.jpg" alt="">
+        <div class="classes-content-container" id="classes-content-container">
+            <img class="classes-image" id ="classes-image" src="../assets/mosaicImages/cycling.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide" id="classes-hidden-text">Join our high-energy cycling class! Ride to the beat with
+                    motivating instructors, burn calories and boost endurance in a fun, fast-paced group setting.
+                    Perfect for all fitness levels!</p>
                 <h4 class="classes-image-title">Cycling</h4>
                 <p class="classes-image-subtitle">Wednesday 9:00am-10:00am</p>
             </div>
         </div>
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/meditation.png" alt="">
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/meditation.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Find your calm with guided meditation sessions designed to reduce stress, sharpen focus and restore inner balance.</p>
                 <h4 class="classes-image-title">Meditation</h4>
                 <p class="classes-image-subtitle">Friday 11:00am-12.00pm</p>
             </div>
         </div>
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/boxing.jpg" alt="">
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/boxing.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Punch, sweat and sculpt! Build strength and agility with dynamic boxing workouts for all skill levels.</p>
                 <h4 class="classes-image-title">Boxing</h4>
                 <p class="classes-image-subtitle">Tuesday 4:00pm-5:00pm</p>
             </div>
         </div>
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/karate.jpg" alt="">
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/karate.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Master discipline, focus and self-defense with energizing karate classes led by expert instructors.</p>
                 <h4 class="classes-image-title">Karate</h4>
                 <p class="classes-image-subtitle">Friday 10:00am-11.00am</p>
             </div>
         </div>
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/lifting.jpg" alt="">
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/lifting.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Lift heavy, grow stronger! Perfect your squat, bench and deadlift with expert coaching and a motivating atmosphere.</p>
                 <h4 class="classes-image-title">Heavy Lifting</h4>
                 <p class="classes-image-subtitle">Saturday: 9:00am-10:00am</p>
             </div>
         </div>
-        <div>
-            <img class="classes-image" src="../assets/mosaicImages/crossfit.jpg" alt="">
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/crossfit.jpeg" alt="">
             <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Push your limits with high-intensity, functional workouts that build strength, stamina and resilience.</p>
                 <h4 class="classes-image-title">Crossfit</h4>
                 <p class="classes-image-subtitle">Wednesday 9:00am-10:00am</p>
             </div>
         </div>
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/hyrox.jpeg" alt="">
+            <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Join a fitness race that combines running with functional strength exercises like sled pushes/pulls, rowing and wall balls!</p>
+                <h4 class="classes-image-title">Hyrox</h4>
+                <p class="classes-image-subtitle">Saturday 11:00am-12.00pm</p>
+            </div>
+        </div>
+        <div class="classes-content-container">
+            <img class="classes-image" src="../assets/mosaicImages/pilates.jpeg" alt="">
+            <div class="classes-image-text">
+                <p class="classes-hidden-text hide">Strengthen your core, improve posture and enhance flexibility with our low-impact, full-body Pilates sessions.</p>
+                <h4 class="classes-image-title">Pilates</h4>
+                <p class="classes-image-subtitle">Wednesday 11:00am-12.00pm</p>
+            </div>
+        </div>
     </div>
     <button class="button-classes third">JOIN NOW<img src="../assets/icons/rightChevron.png" alt="rightArrow"
-                                                           class="right-arrow"></button>
+                                                      class="right-arrow"></button>
 </div>
 
 <footer>
     <div class="footer-main-container">
         <div class="footer-left-container">
             <img src="../assets/logos/black.png" alt="" class="footer-logo">
-            <p class="footer-text-long">Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
+            <p class="footer-text-long">Take your health and body to the next level with our comprehensive program
+                designed to help you reach your fitness goals.</p>
             <div class="footer-socials-container">
-                <a href="https://www.facebook.com/" target="_blank"><img src="assets/socialIcons/facebook.svg" alt="" class="footer-social-icon"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="assets/socialIcons/Instagram.svg" alt="" class="footer-social-icon"></a>
-                <a href="https://www.x.com/" target="_blank"><img src="assets/socialIcons/X.svg" alt="" class="footer-social-icon"></a>
-                <a href="https://www.youtube.com/" target="_blank"><img src="assets/socialIcons/YouTube.svg" alt="" class="footer-social-icon"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="assets/socialIcons/facebook.svg" alt=""
+                                                                         class="footer-social-icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="assets/socialIcons/Instagram.svg" alt=""
+                                                                          class="footer-social-icon"></a>
+                <a href="https://www.x.com/" target="_blank"><img src="assets/socialIcons/X.svg" alt=""
+                                                                  class="footer-social-icon"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="assets/socialIcons/YouTube.svg" alt=""
+                                                                        class="footer-social-icon"></a>
             </div>
-            <p class="footer-text"><a href="assets/sample-privacy-policy-template.pdf" target="_blank" class="privacy-policy">Privacy Policy</a> | © 2025 Pulse Fitness</p>
+            <p class="footer-text"><a href="assets/sample-privacy-policy-template.pdf" target="_blank"
+                                      class="privacy-policy">Privacy Policy</a> | © 2025 Pulse Fitness</p>
         </div>
         <div class="footer-center-container">
             <h3 class="footer-titles">Our Classes</h3>
@@ -112,6 +144,9 @@
         </div>
     </div>
 </footer>
+
+<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="application/javascript" src="../scripts/script.js"></script>
 
 </body>
 </html>
