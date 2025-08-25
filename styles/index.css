@@ -22,6 +22,10 @@ header {
     background: black
 }
 
+.header-a {
+    text-decoration: none;
+}
+
 ul {
     display: flex;
     flex-direction: row;
