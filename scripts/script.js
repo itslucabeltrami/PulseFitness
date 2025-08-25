@@ -1,5 +1,11 @@
 $(document).ready(function() {
   //IBM calculator logic
+  $('html, body').animate({
+    scrollTop: 0
+  });
+
+  $(".main-banner-background").css("opacity", 1);
+
   $("#ibm-button").click(function() {
     height_m = $("#ibm-input-height").val() / 100;
     ibmResult = $("#ibm-input-weight").val() / (height_m ** 2);
