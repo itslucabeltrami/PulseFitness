@@ -26,6 +26,7 @@ header {
     text-decoration: none;
     color: white
 }
+
 .header-a:hover {
     color: var(--main-red);
     cursor: pointer;
@@ -98,6 +99,7 @@ li {
 html {
     scroll-behavior: smooth;
 }
+
 .main-banner-background {
     position: absolute;
     width: 100%;
@@ -127,9 +129,11 @@ html {
     position: relative;
     margin-bottom: 0.7rem;
 }
+
 .title {
     min-height: 55px;
 }
+
 .title-text-stroke-1 {
     font-size: 0.8rem;
     margin-left: 0.8rem;
@@ -554,7 +558,6 @@ input {
 .ibm-outputs {
     display: flex;
     flex-direction: row;
-
 }
 
 #bmi-result {
@@ -580,7 +583,6 @@ input {
     width: 50rem;
     position: relative;
     margin-top: 2rem;
-
 }
 
 .prices-card {
@@ -675,7 +677,7 @@ input {
     height: 100%;
 }
 
-.call-trainer-image-container{
+.call-trainer-image-container {
     height: 100%;
 }
 
@@ -747,11 +749,10 @@ input {
 }
 
 .privacy-policy {
-   text-decoration: none;
+    text-decoration: none;
     color: black;
 }
 
 .privacy-policy:hover {
     text-decoration: underline;
-
 }
