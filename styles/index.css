@@ -10,6 +10,10 @@
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -24,7 +28,8 @@ header {
 
 .header-a {
     text-decoration: none;
-    color: white
+    color: white;
+    font-weight: 400;
 }
 
 .header-a:hover {
@@ -166,6 +171,18 @@ h1:first-of-type {
     font-size: 1rem;
     font-weight: bold;
     border: none;
+    transition-duration: 0.5s;
+}
+
+.button-classes:hover {
+    background-color: var(--main-red);
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    .right-arrow {
+        filter: brightness(0) invert(1);
+        transition-duration: 0.5s;
+    }
 }
 
 .right-arrow {
@@ -599,7 +616,6 @@ input {
 .prices-card:hover {
     transform: scale(1.1);
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .prices-card-img-container {

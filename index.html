@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-<header>
+<header id="home">
     <div>
         <img src="assets/logos/white.png" alt="Pulse Fitness Logo" style="height:3rem">
     </div>
     <div>
         <ul>
             <li>
-                <a href="#about" class="header-a">
+                <a href="#home" class="header-a">
                     Home
                 </a>
             </li>
@@ -24,18 +24,18 @@
                 </a>
             </li>
             <li>
-                <a href="#about" class="header-a">
-                    Gallery
-                </a>
-            </li>
-            <li>
-                <a href="#about" class="header-a">
+                <a href="#schedule" class="header-a">
                     Schedule
                 </a>
             </li>
             <li>
-                <a href="#about" class="header-a">
+                <a href="#pricing" class="header-a">
                     Pricing
+                </a>
+            </li>
+            <li>
+                <a href="gallery/gallery.html" class="header-a">
+                    Gallery
                 </a>
             </li>
             <li>
@@ -44,16 +44,18 @@
                 </a>
             </li>
             <li>
-                <a href="#about" class="header-a">
+                <a href="contact/contact.html" class="header-a">
                     Contact
                 </a>
             </li>
         </ul>
     </div>
-    <div class="join-now">
-        <div class="join-now-plus-sign">+</div>
-        <div class="join-now-text">JOIN NOW</div>
-    </div>
+    <a href="contact/contact.html">
+        <div class="join-now">
+            <div class="join-now-plus-sign">+</div>
+            <div class="join-now-text">JOIN NOW</div>
+        </div>
+    </a>
 </header>
 
 <div class="main-banner">
@@ -64,8 +66,10 @@
         </div>
         <h1>MAKE YOUR BODY</h1>
         <h1>FIT & PERFECT</h1>
-        <button class="button-classes">OUR CLASSES<img src="assets/icons/rightChevron.png" alt="rightArrow"
-                                                       class="right-arrow"></button>
+        <a href="classes/classes.html">
+            <button class="button-classes">OUR CLASSES<img src="assets/icons/rightChevron.png" alt="rightArrow"
+                                                           class="right-arrow"></button>
+        </a>
     </div>
     <!--    image inserted through css for performance improvement-->
     <div class="main-banner-background">
@@ -102,15 +106,18 @@
         <h2 class="about-secondary-title">Take Your Health And Body To Next Level</h2>
         <p class="about-text">Take your health and body to the next level with our comprehensive program designed to
             help you reach your fitness goals.</p>
-        <button class="button-classes">TAKE A TOUR<img src="assets/icons/rightChevron.png" alt="rightArrow"
-                                                       class="right-arrow"></button>
+        <a href="gallery/gallery.html">
+            <button class="button-classes">TAKE A TOUR<img src="assets/icons/rightChevron.png" alt="rightArrow"
+                                                           class="right-arrow"></button>
+        </a>
+
     </div>
     <div class="about-right">
         <img src="assets/runningMan.jpeg" alt="running man" class="running-man-img">
     </div>
 </div>
 
-<div class="featured-classes-container">
+<div class="featured-classes-container" id="schedule">
     <div class="title-container">
         <div class="title-3">
             <h2 class="title-text-stroke-3">OUR FEATURED CLASSES</h2>
@@ -120,50 +127,64 @@
     </div>
     <div class="mosaic-images-container">
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/cycling.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/cycling.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Cycling</h4>
                 <p class="mosaic-image-subtitle">Wednesday 9:00am-10:00am</p>
             </div>
         </div>
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/meditation.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/meditation.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Meditation</h4>
                 <p class="mosaic-image-subtitle">Friday 11:00am-12.00pm</p>
             </div>
         </div>
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/boxing.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/boxing.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Boxing</h4>
                 <p class="mosaic-image-subtitle">Tuesday 4:00pm-5:00pm</p>
             </div>
         </div>
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/karate.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/karate.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Karate</h4>
                 <p class="mosaic-image-subtitle">Friday 10:00am-11.00am</p>
             </div>
         </div>
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/lifting.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/lifting.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Heavy Lifting</h4>
                 <p class="mosaic-image-subtitle">Saturday: 9:00am-10:00am</p>
             </div>
         </div>
         <div>
-            <img class="mosaic-image" src="assets/mosaicImages/crossfit.jpeg" alt="">
+            <a href="classes/classes.html">
+                <img class="mosaic-image" src="assets/mosaicImages/crossfit.jpeg" alt="">
+            </a>
             <div class="mosaic-image-text">
                 <h4 class="mosaic-image-title">Crossfit</h4>
                 <p class="mosaic-image-subtitle">Wednesday 9:00am-10:00am</p>
             </div>
         </div>
     </div>
-    <button class="button-classes third">DISCOVER MORE<img src="assets/icons/rightChevron.png" alt="rightArrow"
-                                                           class="right-arrow"></button>
+    <a href="classes/classes.html">
+        <button class="button-classes third">DISCOVER MORE<img src="assets/icons/rightChevron.png" alt="rightArrow"
+                                                               class="right-arrow"></button>
+    </a>
 </div>
 
 <div class="why-us-container">
@@ -202,8 +223,10 @@
                 </div>
             </div>
         </div>
-        <button class="button-classes">JOIN US<img src="assets/icons/rightChevron.png" alt="rightArrow"
-                                                   class="right-arrow"></button>
+        <a href="contact/contact.html">
+            <button class="button-classes">JOIN US<img src="assets/icons/rightChevron.png" alt="rightArrow"
+                                                       class="right-arrow"></button>
+        </a>
     </div>
 </div>
 
@@ -235,7 +258,7 @@
 
         <div class="trainer-card">
             <img src="assets/personalTrainers/2.png" alt="" class="trainer-img">
-            <h2 class="trainer-name">James Horwell</h2>
+            <h2 class="trainer-name">James Harwell</h2>
             <p>Boxing Trainer</p>
             <div class="trainer-socials">
                 <a href="https://www.facebook.com/" target="_blank"><img src="assets/socialIcons/facebook.svg" alt=""
@@ -293,7 +316,7 @@
     </div>
 </div>
 
-<div class="prices-container">
+<div class="prices-container" id="pricing">
     <div class="title-container">
         <div class="title-3">
             <h2 class="title-text-stroke-3">PRICING CHART</h2>
@@ -316,7 +339,9 @@
                 <p class="prices-perks">Cycling Class</p>
                 <p class="prices-perks">Running Class</p>
                 <p class="prices-perks">Water Bottle</p>
-                <button class="button-classes button-red">PURCHASE NOW</button>
+                <a href="contact/contact.html">
+                    <button class="button-classes button-red">PURCHASE NOW</button>
+                </a>
             </div>
         </div>
         <div class="prices-card">
@@ -331,7 +356,10 @@
                 <p class="prices-perks">All Classes</p>
                 <p class="prices-perks">Fresh Towels</p>
                 <p class="prices-perks">Water Bottle</p>
-                <button class="button-classes button-red">PURCHASE NOW</button>
+                <a href="contact/contact.html">
+                    <button class="button-classes button-red">PURCHASE NOW</button>
+                </a>
+
             </div>
         </div>
         <div class="prices-card">
@@ -346,7 +374,9 @@
                 <p class="prices-perks">All Classes</p>
                 <p class="prices-perks">Fresh Towels</p>
                 <p class="prices-perks">VIP Lounge</p>
-                <button class="button-classes button-red">PURCHASE NOW</button>
+                <a href="contact/contact.html">
+                    <button class="button-classes button-red">PURCHASE NOW</button>
+                </a>
             </div>
         </div>
     </div>
@@ -358,12 +388,14 @@
             <h2 class="about-secondary-title">Need A Fitness Trainer?</h2>
             <h2 class="about-secondary-title"><span class="secondary-span">Call:</span> +123-456789</h2>
         </div>
-        <button class="button-classes button-red">PURCHASE NOW</button>
+        <a href="contact/contact.html">
+            <button class="button-classes button-red">PURCHASE NOW</button>
+        </a>
     </div>
 
     <div class="call-trainer-right-container">
         <div class="call-trainer-image-container">
-            <img src="assets/adultDumbell.jpeg" alt="" class="call-trainer-image">
+            <img src="assets/adultDumbbell.jpeg" alt="" class="call-trainer-image">
         </div>
     </div>
 </div>
