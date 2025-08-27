@@ -9,7 +9,7 @@
 ##  Table of Contents
 
 - [About the Project](#about-the-project)  
-- [Demo Screenshot](#demo-screenshot)  
+- [Demo Screenshot](#demo-screenshots)  
 - [Features](#features)
 - [Future Improvements](#future-improvements)
 - [Tech Stack](#tech-stack)  
