@@ -2,6 +2,7 @@ $(document).ready(function () {
   //fade in main image
   $(".main-banner-background").css("opacity", 1);
 
+
   //IBM calculator logic
   $('html, body').animate({
     scrollTop: 0
@@ -13,6 +14,7 @@ $(document).ready(function () {
     hasDecimal = ibmResult - parseInt(ibmResult);
     $("#bmi-result").html((hasDecimal ? parseInt(ibmResult) : Number(ibmResult).toFixed(2)) + " kg/m²");
   })
+
 
   //classes page hover on card
   $(".classes-content-container").hover(
