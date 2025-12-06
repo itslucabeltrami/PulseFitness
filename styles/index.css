@@ -702,19 +702,38 @@ input {
     mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
 }
 
+.footer-component-container {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .footer-main-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    height: 20rem;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.footer-information-right-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.footer-signed-container {
+    text-align: center;
 }
 
 .footer-left-container, .footer-right-container, .footer-center-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 20rem;
+    max-width: 20rem;
     gap: 1rem;
 }
 
@@ -771,4 +790,14 @@ input {
 
 .privacy-policy:hover {
     text-decoration: underline;
+}
+
+
+@media (max-width: 850px) {
+    .contact-right-container {
+        position: absolute;
+        width: 71%;
+        margin: auto;
+        place-self: anchor-center;
+    }
 }
