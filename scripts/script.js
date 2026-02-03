@@ -27,25 +27,22 @@ $(document).ready(function () {
         $(this).find(".classes-hidden-text").hide("slow", "linear");
       }
   )
-})
 
-
-
-
-
-//------------------------hamburger 
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
+const hamburger = $('.hamburger');
+const navLinks = $('.nav-links-responsive');
 // const joinNowContainer = document.querySelector('.join-now-container'); 
 let menuOpen = false; 
 
-hamburger.addEventListener('click', () => {
+hamburger.on('click', () => {
   if (menuOpen==false) {
-    navLinks.style.display = "block";
+    navLinks.show();
     menuOpen = true;
   }
   else if (menuOpen == true) {
-    navLinks.style.display = "none";
+    navLinks.hide();
     menuOpen = false;
   }
 })
+})
+
+//------------------------hamburger 
