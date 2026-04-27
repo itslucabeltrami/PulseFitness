@@ -3,15 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    padding-top: 6rem;
 }
 
 .classes-images-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    width: 62rem;
+    justify-content: center;
+    max-width: 62rem;
     margin: auto;
     flex-wrap: wrap;
     gap: 1rem;
@@ -35,7 +35,6 @@
     font-size: 0.9rem;
     margin-top: -5rem;
     display: none;
-
 }
 
 .classes-image-text {
@@ -46,7 +45,6 @@
     margin-left: 1rem;
     color: white;
 }
-
 
 .classes-image-title {
     font-size: 1.4rem;
@@ -65,4 +63,12 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.2rem;
+}
+
+.join-cta {
+    padding: 3rem 0;
+}
+
+.join-cta > a > button {
+    margin: 0;
 }

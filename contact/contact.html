@@ -6,44 +6,46 @@
     <link rel="icon" type="image/x-icon" href="../assets/logos/favicon.png">
     <link rel="stylesheet" href="../styles/contact.css"/>
     <link rel="stylesheet" href="../styles/index.css"/>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<header id="home">
-    <div>
+<nav>
+    <div class="logo">
         <img src="../assets/logos/white.png" alt="Pulse Fitness Logo" style="height:3rem">
     </div>
-    <div>
-        <ul>
-            <li>
-                <a href="../index.html" class="header-a">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="../gallery/gallery.html" class="header-a">
-                    Gallery
-                </a>
-            </li>
-            <li>
-                <a href="../classes/classes.html" class="header-a">
-                    Classes
-                </a>
-            </li>
-            <li>
-                <a class="header-a">
-                    Contact
-                </a>
-            </li>
-        </ul>
+    <div class="hamburger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 6l16 0"/>
+            <path d="M4 12l16 0"/>
+            <path d="M4 18l16 0"/>
+        </svg>
     </div>
-    <a href="../contact/contact.html">
+    <ul class="nav-links">
+        <li><a href="../index.html" class="header-a">Home</a></li>
+        <li><a href="../gallery/gallery.html" class="header-a">Gallery</a></li>
+        <li><a href="../classes/classes.html" class="header-a">Classes</a></li>
+        <li><a href="../contact/contact.html" class="header-a">Contact</a></li>
+    </ul>
+
+    <ul class="nav-links-responsive">
+        <li><a href="../index.html" class="header-a">Home</a></li>
+        <li><a href="../gallery/gallery.html" class="header-a">Gallery</a></li>
+        <li><a href="../classes/classes.html" class="header-a">Classes</a></li>
+        <li><a href="../contact/contact.html" class="header-a">Contact</a></li>
+    </ul>
+
+    <a href="../contact/contact.html" class="join-now-container">
         <div class="join-now">
             <div class="join-now-plus-sign">+</div>
             <div class="join-now-text">JOIN NOW</div>
         </div>
     </a>
-</header>
+</nav>
 
 <div class="contact-main-container">
     <div class="contact-left-container">
@@ -51,7 +53,8 @@
     </div>
     <div class="contact-right-container">
         <h1 class="contact-h2">JOIN THE <span class="contact-h2-red">FAMILY</span></h1>
-        <p class="contact-text">Contact with one of our specialists: discover exclusive perks and prices and sign up in the blink of an eye!</p>
+        <p class="contact-text">Contact with one of our specialists: discover exclusive perks and prices and sign up in
+            the blink of an eye!</p>
         <h2 class="contact-number"><span class="secondary-span">Call:</span> +123-456789</h2>
         <a href="tel:+123-456789">
             <button class="button-classes">CALL NOW</button>
@@ -59,46 +62,54 @@
     </div>
 </div>
 
-<footer>
+<footer class="footer-component-container">
     <div class="footer-main-container">
         <div class="footer-left-container">
             <img src="../assets/logos/black.png" alt="pulse fitness logo" class="footer-logo">
             <p class="footer-text-long">Take your health and body to the next level with our comprehensive program
                 designed to help you reach your fitness goals.</p>
             <div class="footer-socials-container">
-                <a href="https://www.facebook.com/" target="_blank"><img src="../assets/socialIcons/facebook.svg" alt="facebook"
+                <a href="https://www.facebook.com/" target="_blank"><img src="../assets/socialIcons/facebook.svg"
+                                                                         alt="facebook"
                                                                          class="footer-social-icon"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/socialIcons/Instagram.svg" alt="instagram"
+                <a href="https://www.instagram.com/" target="_blank"><img src="../assets/socialIcons/Instagram.svg"
+                                                                          alt="instagram"
                                                                           class="footer-social-icon"></a>
                 <a href="https://www.x.com/" target="_blank"><img src="../assets/socialIcons/X.svg" alt="x"
                                                                   class="footer-social-icon"></a>
-                <a href="https://www.youtube.com/" target="_blank"><img src="../assets/socialIcons/YouTube.svg" alt="youtube"
+                <a href="https://www.youtube.com/" target="_blank"><img src="../assets/socialIcons/YouTube.svg"
+                                                                        alt="youtube"
                                                                         class="footer-social-icon"></a>
             </div>
-            <p class="footer-text"><a href="../assets/sample-privacy-policy-template.pdf" target="_blank"
-                                      class="privacy-policy">Privacy Policy</a> | © 2025 Pulse Fitness</p>
         </div>
-        <div class="footer-center-container">
-            <h3 class="footer-titles">Our Classes</h3>
-            <hr class="footer-hr">
-            <p class="footer-text">Boxing Classes</p>
-            <p class="footer-text">Meditation Classes</p>
-            <p class="footer-text">Running Training</p>
-            <p class="footer-text">Cycling Classes</p>
-            <p class="footer-text">Heavy Lifting</p>
-        </div>
-        <div class="footer-right-container">
-            <h3 class="footer-titles">Working Hours</h3>
-            <hr class="footer-hr">
-            <p class="footer-text-bold">Monday - Friday:</p>
-            <p class="footer-text">7:00am - 21:00pm</p>
-            <p class="footer-text-bold">Saturday:</p>
-            <p class="footer-text">7:00am - 19:00pm</p>
-            <p class="footer-text-bold">Sunday - Closed</p>
+
+        <div class="footer-information-right-container">
+            <div class="footer-center-container">
+                <h3 class="footer-titles">Our Classes</h3>
+                <hr class="footer-hr">
+                <p class="footer-text">Boxing Classes</p>
+                <p class="footer-text">Meditation Classes</p>
+                <p class="footer-text">Running Training</p>
+                <p class="footer-text">Cycling Classes</p>
+                <p class="footer-text">Heavy Lifting</p>
+            </div>
+            <div class="footer-right-container">
+                <h3 class="footer-titles">Working Hours</h3>
+                <hr class="footer-hr">
+                <p class="footer-text-bold">Monday - Friday:</p>
+                <p class="footer-text">7:00am - 21:00pm</p>
+                <p class="footer-text-bold">Saturday:</p>
+                <p class="footer-text">7:00am - 19:00pm</p>
+                <p class="footer-text-bold">Sunday - Closed</p>
+            </div>
         </div>
     </div>
+    <div class="footer-signed-container">
+        <p class="footer-text"><a href="../assets/sample-privacy-policy-template.pdf" target="_blank"
+                                  class="privacy-policy">Privacy Policy</a> | © 2025 Pulse Fitness</p>
+    </div>
 </footer>
-
-
+<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="application/javascript" src="../scripts/script.js"></script>
 </body>
 </html>
