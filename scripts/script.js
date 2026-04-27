@@ -18,14 +18,27 @@ $(document).ready(function () {
 
   //classes page hover on card
   $(".classes-content-container").hover(
-      function () {
-        $(this).find('img').addClass('classes-image-filtered');
-        $(this).find(".classes-hidden-text").show("slow", "swing");
-      },
-      function () {
-        $(this).find('img').removeClass('classes-image-filtered');
-        $(this).find(".classes-hidden-text").hide("slow", "linear");
-      }
+    function () {
+      $(this).find('img').addClass('classes-image-filtered');
+      $(this).find(".classes-hidden-text").show("slow", "swing");
+    },
+    function () {
+      $(this).find('img').removeClass('classes-image-filtered');
+      $(this).find(".classes-hidden-text").hide("slow", "linear");
+    }
   )
-})
 
+  const hamburger = $('.hamburger');
+  const navLinks = $('.nav-links-responsive');
+  let menuOpen = false;
+
+  hamburger.on('click', () => {
+    if (menuOpen == false) {
+      navLinks.show();
+      menuOpen = true;
+    } else if (menuOpen == true) {
+      navLinks.hide();
+      menuOpen = false;
+    }
+  })
+})
